@@ -51,12 +51,32 @@ function draw() {
 }
 
 
-function changePosition(x,y){
-  database.ref("balloon/height").update({
-  x: balloon.x +x,
-  y: balloon.y +y
-  })
-}
+//function changePosition(x,y){
+  //database.ref("balloon/height").update({
+  //x: balloon.x +x,
+  //y: balloon.y +y
+  //})
+//}
+
+//function changePosition(x,y){
+  //database.ref("balloon/height").update({
+  //balloon.x +x,
+  //balloon.y +y
+  //})
+//}
+
+//function changePosition(x,y){
+ //balloon.x +x,
+  //balloon.y +y
+  //})
+//}
+
+//function changePosition(x,y){
+  //database.ref("balloon/height").update({
+  //balloon.x +x,
+  //})
+//}
+
 
 
 function readposition(data){
@@ -67,25 +87,6 @@ function readposition(data){
 }
 
 
-//function readposition(data){
- // console.log(position)
- // balloon.x = height.x;
- // balloon.y = height.y;
-//}
-
-
-//function readposition(data){
- // height = data.val()
- // console.log(position)
- // balloon.y = height.y;
-//}
-
-
-//function readposition(data){
- // height = data.val()
- // console.log(position)
- // balloon.x = height.x;
-//}
 
 
 
